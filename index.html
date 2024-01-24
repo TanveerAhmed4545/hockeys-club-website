@@ -516,45 +516,71 @@
                 </div>
 
                 <!-- form -->
-                <div class="lg:basis-3/5 basis-full">
+                <!-- <div class="lg:basis-3/5 basis-full"> -->
 
-                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                  <form class="lg:basis-3/5 basis-full">
+
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
                         <!-- input-1 -->
-                        <div >
+                        <!-- <div >
                             <h3 class="text-neutral-900 text-xl font-bold pb-4">Your Name</h3>
                             <input class="w-full p-5 rounded-xl border-0 outline-0 bg-[#F8F8F8]" type="text" placeholder="Enter your full name">
-                        </div>
+                        </div> -->
+
+
+                        <label><span class="text-neutral-900 text-xl font-bold">Your Name</span> <br>
+                          <input class="mt-4 w-full p-5 rounded-xl border-0 outline-0 bg-[#F8F8F8]" type="text" placeholder="Enter your full name" required >
+
+                        </label>
 
                         <!-- input-2 -->
-                        <div >
+                        <!-- <div >
                             <h3 class="text-neutral-900 text-xl font-bold pb-4">Your Email</h3>
                             <input class="w-full p-5 rounded-xl border-0 outline-0 bg-[#F8F8F8]" type="email" placeholder="Enter your email">
-                        </div>
+                        </div> -->
+
+                        <label><span class="text-neutral-900 text-xl font-bold">Your Email</span> <br>
+                          <input class="mt-4 w-full p-5 rounded-xl border-0 outline-0 bg-[#F8F8F8]" type="email" placeholder="Enter your email" required>
+                        </label>
 
                         <!-- input-3 -->
-                        <div >
+                        <!-- <div >
                             <h3 class="text-neutral-900 text-xl font-bold pb-4">Subject</h3>
                             <input class="w-full p-5 rounded-xl border-0 outline-0 bg-[#F8F8F8]" type="text" placeholder="Enter your subject">
-                        </div>
+                        </div> -->
+
+                        <label><span class="text-neutral-900 text-xl font-bold">Subject</span> <br>
+                          <input class="mt-4 w-full p-5 rounded-xl border-0 outline-0 bg-[#F8F8F8]" type="text" placeholder="Enter your subject" required>
+                        </label>
 
                         <!-- input-4 -->
-                        <div >
+                        <!-- <div >
                             <h3 class="text-neutral-900 text-xl font-bold pb-4">Phone Number</h3>
                             <input class="w-full p-5 rounded-xl border-0 outline-0 bg-[#F8F8F8]" type="number" placeholder="Enter your phone number">
-                        </div>
+                        </div> -->
+
+                        <label><span class="text-neutral-900 text-xl font-bold">Phone Number</span> <br>
+                          <input class="mt-4 w-full p-5 rounded-xl border-0 outline-0 bg-[#F8F8F8]" type="number" placeholder="Enter your phone number" required>
+                        </label>
 
                     </div>
                    <!-- input 5 -->
-                    <div class="mt-6 mb-7">
+                    <!-- <div class="mt-6 mb-7">
                         <h3 class="text-neutral-900 text-xl font-bold pb-4">Message</h3>
                         <input class="w-full p-5 pb-36 lg:pb-64 rounded-xl border-0 outline-0 bg-[#F8F8F8]" type="text" placeholder="Write your message">
-                    </div>
+                    </div> -->
+                    <!-- input 5 -->
+                    <label for="textarea" ><span class="text-neutral-900 text-xl font-bold ">Message</span> <br>
+                      <textarea  class="mt-4 w-full p-5 pb-36 lg:pb-64 rounded-xl border-0 outline-0 bg-[#F8F8F8] text-[#9CA3AF] resize-none">Write your message</textarea>
+                    </label>
 
-                    <button class="btn text-white text-xl font-bold bg-red-500 w-full">Send Message</button>
+                    <button class="btn text-white text-xl font-bold bg-red-500 w-full mt-6">Send Message</button>
 
+                  
 
+                <!-- </div> -->
 
-                </div>
+                </form>
 
             </div>
           <!-- social area -->
